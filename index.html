@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>El Studio</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container-fluid header__menu_bg">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="header__menu">
+            <img src="" alt="" class="logo">
+            <div class="humburger__logo">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav class="nav">
+              <ul class="menu">
+                <li class="menu__item">
+                  <a href="#services" class="menu__link">
+                    услуги
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#portfolio" class="menu__link">
+                    портфолио
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#work" class="menu__link">
+                    этапы работы
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#clients" class="menu__link">
+                    Наши клиетны
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#reviews" class="menu__link">
+                    отзывы
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="wrapper__phone">
+              <a href="#modal-order-5" class="btn project__btn">обсудить проект</a>
+              <p class="header__phone"><img src="img/phone_icon.png" alt="phone">+38 (096) 400&ndash;91&ndash;30</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="remodal" data-remodal-id="modal-order-5">
+    <div class="service_modal">
+      <button data-remodal-action="close" class="remodal-close">
+        <div class="cls">ЗАКРЫТЬ</div>
+      </button>
+      <div class="modal__wrapper">
+        <h2 class="form_modal_head">Введите Ваши данные в форме ниже</h2>
+        <form method="POST" action="form.php" name="modalForm" class="form_modal">
+          <input type="text" name="name" placeholder="Ваше имя" required id="userName">
+          <span class="error"></span>
+          <input type="tel" name="phone" placeholder="Телефон" required id="userPhone">
+          <span class="error"></span>
+          <button type="submit" class="modal__button">Заказать звонок</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="sucsess__wrapper" >
+    <!-- <button data-remodal-action="close" class="remodal-close">
+      <div class="cls">ЗАКРЫТЬ</div>
+    </button> -->
+    <h2 class="sucsess_head">Спасибо за заявку!</h2>
+    <p class="sucsess_text">В ближайшее время мы с Вами свяжемся!</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <header class="header">
+          <div class="header__bg">
+            <div class="header__name_wrap">
+              <h1 class="header__name">Современная мебель</h1>
+              <p class="header__descr">Мы сделаем уголок Вашей мечты</p>
+              <div class="header__btn_wrap">
+                <a href="#portfolio" class="btn header__btn_portfolio">портфолио</a>
+                <a href="#modal-order-5" class="btn header__btn_consultation">бесплатная <br>  консультация</a>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+    <section class="screen" id="services">
+      <div class="screen__text">
+        <h3 class="screen__text_name">Чем мы занимаемся</h3>
+        <p class="screen__text_descr">Мы создаем пространство которое будет таким же уникальным как Вы.</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="services__content">
+              <a href="#modal-order-1" class="modal__link">
+                <div class="services__row">
+                  <div class="services__block services__block_bad">
+                    <img src="img/bad.png" alt="bad_big" class="services__img bad__img">
+                  </div>
+                  <div class="services__img_wrap">
+                    <img src="img/icon_bad.png" alt="bad" class="services__icon">
+                    <p class="services__text">Дизайн <span>спальни</span></p>
+                  </div>
+                </div>
+              </a>
+              <div class="remodal order-remodal-1 " data-remodal-id="modal-order-1">
+                <button data-remodal-action="close" class="remodal-close">
+                  <div class="cls">ЗАКРЫТЬ</div>
+                </button>
+                <div class="service_modal" >
+                  <div class="modal__wrapper">
+                    <h2 class="modal__head">Дизайн спальни</h2>
+                    <p class="modal__text"> Нежный и стильный дизайн спальни для вашего комфорта и отдыха. Вам понравятся идеи и модные решения в интерьере от креативных дизайнеров.При разработке дизайна интерьера спальни, необходимо найти "золотую середину"между гармонией и функциональностью.</p>
+                    <a href="#modal-order-5" class="modal__button">Бесплатная консультация</a>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="service_modal" >
+                <button data-remodal-action="close" class="remodal-close">
+                  <div class="cls">ЗАКРЫТЬ</div>
+                </button>
+                <div class="modal__wrapper">
+                  <h2 class="modal__head">Дизайн спальни</h2>
+                  <p class="modal__text"> Нежный и стильный дизайн спальни для вашего комфорта и отдыха. Вам понравятся идеи и модные решения в интерьере от креативных дизайнеров.При разработке дизайна интерьера спальни, необходимо найти "золотую середину"между гармонией и функциональностью.</p>
+                  <a href="#modal-order-5" class="modal__button">Бесплатная консультация</a>
+                </div>
+              </div> -->
+              <a href="#modal-order-2" class="modal__link">
+                <div class="services__row services__row_reverse">
+                  <div class="services__block">
+                    <img src="img/sofa.png" alt="sofa_big" class="services__img sofa__img">
+                  </div>
+                  <div class="services__img_wrap">
+                    <img src="img/icon_sofa.png" alt="sofa" class="services__icon">
+                    <p class="services__text">Дизайн <span>прихожой</span></p>
+                  </div>
+                </div>
+              </a>
+              <div class="remodal order-remodal-2" data-remodal-id="modal-order-2">
+                <button data-remodal-action="close" class="remodal-close">
+                  <div class="cls">ЗАКРЫТЬ</div>
+                </button>
+                <div class="service_modal" >
+                  <div class="modal__wrapper">
+                    <h2 class="modal__head">Дизайн прихожой</h2>
+                    <p class="modal__text"> Нежный и стильный дизайн спальни для вашего комфорта и отдыха. Вам понравятся идеи и модные решения в интерьере от креативных дизайнеров.При разработке дизайна интерьера спальни, необходимо найти "золотую середину"между гармонией и функциональностью.</p>
+                    <a href="#modal-order-5" class="modal__button">Бесплатная консультация</a>
+                  </div>
+                </div>
+              </div>
+              <a href="#modal-order-3" class="modal__link">
+                <div class="services__row">
+                  <div class="services__block services__block_kitchen">
+                    <img src="img/kitchen.png" alt="kitchen_big" class="services__img kitchen__img">
+                  </div>
+                  <div class="services__img_wrap">
+                    <img src="img/icon_kitchen.png" alt="kitchen" class="services__icon">
+                    <p class="services__text">Дизайн <span>кухни</span></p>
+                  </div>
+                </div>
+              </a>
+              <div class="remodal order-remodal-3" data-remodal-id="modal-order-3">
+                <button data-remodal-action="close" class="remodal-close">
+                  <div class="cls">ЗАКРЫТЬ</div>
+                </button>
+                <div class="service_modal">
+                  <div class="modal__wrapper">
+                    <h2 class="modal__head">Дизайн кухни</h2>
+                    <p class="modal__text"> Нежный и стильный дизайн спальни для вашего комфорта и отдыха. Вам понравятся идеи и модные решения в интерьере от креативных дизайнеров.При разработке дизайна интерьера спальни, необходимо найти "золотую середину"между гармонией и функциональностью.</p>
+                    <a href="#modal-order-5" class="modal__button">Бесплатная консультация</a>
+                  </div>
+                </div>
+              </div>
+              <a href="#modal-order-4" class="modal__link">
+                <div class="services__row services__row_reverse">
+                  <div class="services__block">
+                    <img src="img/children.png" alt="children_big" class="services__img children__img">
+                  </div>
+                  <div class="services__img_wrap">
+                    <img src="img/icon_children.png" alt="children" class="services__icon">
+                    <p class="services__text">Дизайн <span>детской</span></p>
+                  </div>
+                </div>
+              </a>
+              <div class="remodal order-remodal-4" data-remodal-id="modal-order-4">
+                <button data-remodal-action="close" class="remodal-close">
+                  <div class="cls">ЗАКРЫТЬ</div>
+                </button>
+                <div class="service_modal">
+                  <div class="modal__wrapper">
+                    <h2 class="modal__head">Дизайн детской</h2>
+                    <p class="modal__text"> Нежный и стильный дизайн спальни для вашего комфорта и отдыха. Вам понравятся идеи и модные решения в интерьере от креативных дизайнеров.При разработке дизайна интерьера спальни, необходимо найти "золотую середину"между гармонией и функциональностью.</p>
+                    <a href="#modal-order-5" class="modal__button">Бесплатная консультация</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#modal-order-5" class="btn services__btn">свяжитесь с нами</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="screen" id="portfolio">
+      <div class="screen__text">
+        <h3 class="screen__text_name">Наши проекты</h3>
+        <p class="screen__text_descr">В наших работах должны быть лаконичность, дизайн и простота.</p>
+      </div>
+      <div class="portfolio_wrap">
+        <div class="slider" id="portfolioSlider">
+          <img src="img/2.jpg" alt="img">
+          <img src="img/2.jpg" alt="img">
+          <img src="img/2.jpg" alt="img">
+        </div>
+      </div>
+      <div class="portfolio__bottom">
+        <a href="#" class="portfolio__btn">смотреть все</a>
+        <div class="arrow_wrap">
+          <a href="#" class="arrow" id="portfolioPrev"><img src="img/left_arrow.png" alt="arrow_left"></a>
+          <a href="#" class="arrow" id="portfolioNext"><img src="img/right_arrow.png" alt="arrow_right"></a> 
+        </div>
+      </div>
+    </section>
+  </div>
+  <section class="screen screen__form" id="mainForm">
+    <div class="section__head_wrap">
+      <h2 class="section__head">Обсудить проект</h2>
+      <p class="section__descr">Мы превратим Вашу идею в реальность</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <form class="main__form" name="mainForm">
+            <input type="text" name="userName" placeholder="Имя" required>
+            <input type="tel" name="userPhone" placeholder="Телефон" required>
+            <button type="submit" class="btn form__btn" >Обсудить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <section class="screen" id="work">
+          <div class="screen__text">
+            <h3 class="screen__text_name">Как мы работаем</h3>
+            <p class="screen__text_descr">Найдем решение без стереотипов и зажатости для самых сложных и необычных проектов</p>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="work__wrap">
+                <div class="work__row work__row_top">
+                  <div class="work__block">
+                    <div class="work__circle">
+                      <img src="img/icon_hello.png" alt="hello">
+                      <span class="circle__text">Этап <br> 1</span>
+                    </div>
+                    <p class="work__text">знакомство</p>
+                  </div>
+                  <img src="img/icon_work_arrow.png" alt="arrow" class="work__arrow">
+                  <div class="work__block">
+                    <div class="work__circle">
+                      <img src="img/icon_talk.png" alt="talk">
+                      <span class="circle__text">Этап <br> 2</span>
+                    </div>
+                    <p class="work__text">обсуждаем <br> ваш проект</p>
+                  </div>
+                  <img src="img/icon_work_arrow.png" alt="arrow" class="work__arrow">
+                  <div class="work__block">
+                    <div class="work__circle">
+                      <img src="img/icon_ruler.png" alt="ruler">
+                      <span class="circle__text">Этап <br> 3</span>
+                    </div>
+                    <p class="work__text">делаем <br> замер</p>
+                  </div>
+                  <img src="img/icon_work_arrow.png" alt="arrow" class="work__arrow">
+                  <div class="work__block">
+                    <div class="work__circle">
+                      <img src="img/icon_proj.png" alt="project">
+                      <span class="circle__text">Этап <br> 4</span>
+                    </div>
+                    <p class="work__text">делаем <br> эскиз</p>
+                  </div> 
+                </div>
+                <div class="work__row">
+                  <div class="work__block">
+                    <div class="work__circle">
+                      <img src="img/icon_list.png" alt="document">
+                      <span class="circle__text">Этап <br> 5</span>
+                    </div>
+                    <p class="work__text">подписываем <br> договор</p>
+                  </div>
+                  <img src="img/icon_work_arrow.png" alt="arrow" class="work__arrow">
+                  <div class="work__block">
+                    <div class="work__circle">
+                      <img src="img/icon_hand.png" alt="hand">
+                      <span class="circle__text">Этап <br> 6</span>
+                    </div>
+                    <p class="work__text">предоплата</p>
+                  </div>
+                  <img src="img/icon_work_arrow.png" alt="arrow" class="work__arrow">
+                  <div class="work__block">
+                    <div class="work__circle">
+                      <img src="img/icon__tools.png" alt="tools">
+                      <span class="circle__text">Этап <br> 7</span>
+                    </div>
+                    <p class="work__text">установка <br> мебели</p>
+                  </div>
+                  <img src="img/icon_work_arrow.png" alt="arrow" class="work__arrow">
+                  <div class="work__block">
+                    <div class="work__circle">
+                      <img src="img/icon_money.png" alt="money">
+                      <span class="circle__text">Этап <br> 8</span>
+                    </div>
+                    <p class="work__text">полная <br> оплата</p>
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <section class="screen" id="clients">
+          <div class="screen__text">
+            <h3 class="screen__text_name">Наши клиенты</h3>
+            <!-- <p class="screen__text_descr">Найдем решение без стереотипов и зажатости для самых сложных и необычных проектов</p> -->
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-lg-3 offset-lg-1">
+              <div class="clients__img_wrap">
+                <img src="img/eldorado.png" alt="eldorado" class="clients__img">
+              </div>
+            </div>
+            <div class="col-12 col-sm-6  col-lg-4">
+              <div class="clients__img_wrap">
+                <img src="img/toyota.png" alt="toyota" class="clients__img">
+              </div>
+            </div>
+            <div class="col-12 col-sm-6  col-lg-4">
+              <div class="clients__img_wrap">
+                <img src="img/lv.png" alt="lv" class="clients__img">
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-6  col-lg-3 offset-lg-1">
+              <div class="clients__img_wrap">
+                <img src="img/chanel.png" alt="chanel" class="clients__img">
+              </div>
+            </div>
+            <div class="col-12 col-sm-6  col-lg-4">
+              <div class="clients__img_wrap">
+                <img src="img/adidas.png" alt="adidas" class="clients__img">
+              </div>
+            </div>
+            <div class="col-12 col-sm-6  col-lg-4">
+              <div class="clients__img_wrap">
+                <img src="img/mango.png" alt="mango" class="clients__img">
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-6  col-lg-3 offset-lg-1">
+              <div class="clients__img_wrap">
+                <img src="img/lighthouse.png" alt="lighthouse" class="clients__img">
+              </div>
+            </div>
+            <div class="col-12 col-sm-6  col-lg-4">
+              <div class="clients__img_wrap">
+                <img src="img/multiplex.png" alt="multuplex" class="clients__img">
+              </div>
+            </div>
+            <div class="col-12 col-sm-6  col-lg-4">
+              <div class="clients__img_wrap">
+                <img src="img/nike.png" alt="nike" class="clients__img">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <section class="screen" id="reviews">
+          <div class="screen__text">
+            <h3 class="screen__text_name">Отзывы</h3>
+            <p class="screen__text_descr">Мы не говорим о себе, за нас говорят наши клиенты</p>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="reviews__wrap">
+                <ul class="reviews__users">
+                  <li class="active"><img src="img/rev1.png" alt="user1"></li>
+                  <li><img src="img/rev2.png" alt="user2"></li>
+                  <li><img src="img/rev3.png" alt="user3"></li>
+                  <li><img src="img/rev4.png" alt="iser4"></li>
+                </ul>
+                <div class="slider__wrap">
+                  <div class="slider__item">
+                    <img src="img/slider_icon.png" alt="icon">
+                    <p class="slider__text">Заказывала кухню. Все сделали на высшем уровне. Качеством и ценой очень довольна! По срокам сделали даже раньше чем предрпологали изначально. Всем рекомендую !</p>
+                    <span class="slider__name">Людмила Степанівна</span>
+                  </div>
+                  <div class="slider__item">
+                    <img src="img/slider_icon.png" alt="icon">
+                    <p class="slider__text">Заказывала кухню. Все сделали на высшем уровне. Качеством и ценой очень довольна! По срокам сделали даже раньше чем предрпологали изначально. Всем рекомендую !</p>
+                    <span class="slider__name">Людмила Степанівна</span>
+                  </div>
+                  <div class="slider__item">
+                    <img src="img/slider_icon.png" alt="icon">
+                    <p class="slider__text">Заказывала кухню. Все сделали на высшем уровне. Качеством и ценой очень довольна! По срокам сделали даже раньше чем предрпологали изначально. Всем рекомендую !</p>
+                    <span class="slider__name">Людмила Степанівна</span>
+                  </div>
+                  <div class="slider__item">
+                    <img src="img/slider_icon.png" alt="icon">
+                    <p class="slider__text">Заказывала кухню. Все сделали на высшем уровне. Качеством и ценой очень довольна! По срокам сделали даже раньше чем предрпологали изначально. Всем рекомендую !</p>
+                    <span class="slider__name">Людмила Степанівна</span>
+                  </div>
+                </div>
+                <div class="slider__controls">
+                  <img src="img/rev_arrow_left.png" alt="left" class="prev">
+                  <img src="img/rev_arrow_right.png" alt="right" class="next">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-1">
+          <h3 class="footer__head">Подпишитесь на нас</h3>
+          <form action="#" class="footer__form" name="footerForm">
+            <div class="row">
+              <div class="col-sm-4 col-6">
+                <input type="text" placeholder="Имя" name="userName" required>
+              </div>
+              <div class="col-sm-4 col-6">
+                <input type="email" placeholder="E-mail" name="userEmail" required>
+              </div>
+              <div class="col-sm-4 col-12">
+                <button type="submit" class="btn">Подписаться</button>
+              </div>
+            </div>
+          </form>
+          <div class="footer__contacts_wrap">
+            <div class="row">
+              <div class="col-12 col-sm-4">
+                <div class="footer__contacts">
+                  <h3 class="footer__head">Наши контакты</h3>
+                  <ul class="contacts__block">
+                    <li class="contacts__text"><img src="img/icon_email.png" alt="email">info@elstudio</li>
+                    <li class="contacts__text"><img src="img/icon_phone.png" alt="email">+38 067 283 22 25</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12 col-sm-4">
+                <div class="footer__contacts">
+                  <h3 class="footer__head">Также мы есть в:</h3>
+                  <ul class="footer__social">
+                    <li><a href="#"><img src="img/icon_inst.png" alt="instagram" class="icon_inst"></a></li>
+                    <li><a href="#"><img src="img/icon_facebook.png" alt="facebook" class="icon_fb"></a></li>
+                    <li><a href="#"><img src="img/icon_pin.png" alt="pinterest" class="icon_pin"></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12 col-sm-4">    
+                <div class="footer__contacts">
+                  <h3 class="footer__head">Где нас найти</h3>
+                  <div class="contacts__address">
+                    <img src="img/icon_location.png" alt="location" class="icon_location">
+                    <p class="contacts__text location">ул. Заречанская 11г, Хмельницкий</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="relation__wrap">
+            <div class="relation__ration">
+              <iframe class="relation__content" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1297.3158835481258!2d26.98897057884846!3d49.43477534177855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473207017b9b64af%3A0x6bc611ff3c226526!2z0LLRg9C70LjRhtGPINCX0LDRgNGW0YfQsNC90YHRjNC60LAsIDExLCDQpdC80LXQu9GM0L3QuNGG0YzQutC40LksINCl0LzQtdC70YzQvdC40YbRjNC60LAg0L7QsdC70LDRgdGC0YwsIDI5MDAw!5e0!3m2!1suk!2sua!4v1533634274375"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="libs/jquery/jquery.min.js"></script>
+  <script src="libs/waterwheelCarousel/jquery.waterwheelCarousel.min.js"></script>
+  <script src="libs/jquery.cycle2.min.js"></script>
+  <script src="libs/remodal/dist/remodal.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
